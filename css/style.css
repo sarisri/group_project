@@ -1,0 +1,35 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit; }
+
+h1, h2 {
+  text-align: left;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+body {
+  color:#	FFFFFF;
+  font-family: "Lucida Grande";
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+
+}
