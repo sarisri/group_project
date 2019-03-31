@@ -21,17 +21,15 @@ h2 {
 }
 
 body {
-  color:#	FFFFFF;
+  color: black;
   font-family: "Lucida Grande";
   margin: 0;
 }
 
-ul{
+ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
 
-header {
 
-}
