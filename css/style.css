@@ -36,5 +36,8 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+}
+
+.main_image:hover{
+  transform: scale(1.1);
 }
