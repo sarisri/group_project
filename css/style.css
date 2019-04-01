@@ -10,26 +10,26 @@ h1, h2 {
 
 h1 {
   font-size: 3rem;
+  font-weight: 700;
   margin-bottom: 0;
 }
 
 h2 {
   font-size: 2rem;
+  font-weight: 700;
   margin-top: 0;
 }
 
 body {
-  color:#	FFFFFF;
+  color: black;
   font-family: "Lucida Grande";
   margin: 0;
 }
 
-ul{
+ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
 
-header {
 
-}
