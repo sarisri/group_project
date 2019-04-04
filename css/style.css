@@ -20,6 +20,7 @@ h2 {
   margin-top: 0;
 }
 
+
 body {
   color: black;
   font-family: "Lucida Grande";
@@ -40,4 +41,19 @@ ul {
 
 .main_image:hover{
   transform: scale(1.1);
+}
+
+.index_image {
+   position: relative;
+   width: 100%;
+}
+
+h3 {
+   position: absolute;
+   top: 150px;
+   width: 100%;
+   text-align: center;
+   color: White;
+   font-size: 3rem;
+   font-weight: bold;
 }
