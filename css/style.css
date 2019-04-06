@@ -27,8 +27,15 @@ body {
 
 .flex-container{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.main_image {
+  padding: 10px;
+  border-radius: 20px;
 }
 
 .main_image:hover{
@@ -77,11 +84,6 @@ body {
   color: white;
   opacity: 0.6;
   text-decoration: none;
-}
-
-.index_image {
-  position: relative;
-  width: 100%;
 }
 
 h3 {
