@@ -43,6 +43,42 @@ body {
   transition: transform .3s;
 }
 
+/* .overlay_top_art, .overlay_top_music, .overlay_top_theatre {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay_bottom {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.index_image_art:hover .overlay_top_art {
+  opacity: 1;
+  width: 100%
+  right: 0;
+} */
+
 .footer {
   text-align: center;
   display: flex;
@@ -128,10 +164,13 @@ h3 {
   font-size: 30px;
   margin: 0;
   font-family: 'Oswald', sans-serif;
+  opacity: 0.7;
 }
 
 .nav-link:hover {
   color: black;
+  opacity: 1;
+  background-color: white;
 }
 
 h5, p {
