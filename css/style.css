@@ -4,26 +4,24 @@ box-sizing: border-box;
 *, *:before, *:after {
 box-sizing: inherit; }
 
-h1, h2 {
-  text-align: left;
-}
-
 h1 {
-  font-size: 3rem;
+  font-size: 8rem;
   font-weight: 700;
   margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
-  margin-top: 0;
+  margin-top: 35px;
+  font-family: 'Homemade Apple', cursive;
+  text-align: center;
 }
-
 
 body {
   color: black;
-  font-family: "Lucida Grande";
   margin: 0;
 }
 
@@ -37,11 +35,12 @@ body {
   transform: scale(1.1);
 }
 
-.icons {
+.footer {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color:  #eaeded; 
 }
 
 .fa {
@@ -78,16 +77,54 @@ body {
 }
 
 .index_image {
-   position: relative;
-   width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 h3 {
-   position: absolute;
-   top: 150px;
-   width: 100%;
-   text-align: center;
-   color: White;
-   font-size: 3rem;
-   font-weight: bold;
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  text-align: center;
+  color: White;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.main {
+  top: 0;
+  position: relative;
+}
+
+.header {
+  background-image: url("/Users/sararidha/Documents/Code First Girls/coding_course/group_project/images/london.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  padding: 80px;
+}
+
+.nav {
+  background-color:  #eaeded; 
+  margin: 0;
+  width: 100%;
+  position: sticky;
+  top:0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  float: none;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav-link:hover {
+  color: black;
 }
