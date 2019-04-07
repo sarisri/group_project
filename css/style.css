@@ -23,6 +23,7 @@ h2 {
 body {
   color: black;
   margin: 0;
+  /* background-color:  #fef9e7; */
 }
 
 .flex-container{
@@ -74,6 +75,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   background-color:  #eaeded; 
+  /* background-color:  #f5b7b1; */
   margin-bottom: 0;
   padding: 15px;
 }
@@ -132,10 +134,12 @@ h3 {
   background-position: bottom;
   background-repeat: repeat-x;
   padding: 80px;
+  background-color: white;
 }
 
 .nav {
   background-color:  #eaeded; 
+  /* background-color:  #f5b7b1; */
   margin: 0;
   width: 100%;
   position: sticky;
@@ -193,6 +197,10 @@ h5, p {
 .contact, .subscribe {
   text-align: center;
   padding: 20px;
+  /* border: 2px solid black;
+  margin: 20px 350px;
+  border-radius: 40px;
+  background-color:  #fef9e7; */
 }
 
 h4 {
@@ -260,4 +268,13 @@ h4 {
 
 #check_box1_label, #check_box2_label, #check_box3_label {
   padding-left: 15px;
+}
+
+#subscribe_button, #submit_button {
+  box-shadow: 1px 2px  black;
+}
+
+#subscribe_button:hover, #submit_button:hover {
+  /* background-color: #aeb6bf; */
+  background-color: #fcf3cf;
 }
