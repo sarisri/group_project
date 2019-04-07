@@ -246,6 +246,18 @@ h4 {
   font-size: 20px;
 }
 
-.form-check {
-  
+.check_box {
+	display: inline-block;
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+#check_box1, #check_box2, #check_box3 {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  border-radius: 5px;
+}
+
+#check_box1_label, #check_box2_label, #check_box3_label {
+  padding-left: 15px;
 }
