@@ -24,8 +24,9 @@
       <a class="nav-link" href="contact.html">CONTACT US</a>
   </nav>
   <main>
-    <section id="contact">
-      <p> We'd love to hear from you! </p>
+    <section class="contact">
+      <br>
+      <h4>We'd love to hear from you!</h4>
       <br>
       <form id="contact_form" action="mailto:dsdakhil@aol.com" method="post" enctype="text/plain">
         <p>First name:</p>
@@ -37,7 +38,7 @@
         <br>
         <br>
         <p>Your message:<p>
-        <textarea id="message" type="text" name="message" placeholder="Write your message here..." style="width:400px; height:400px;"></textarea>
+        <textarea id="message" type="text" name="message" placeholder="Write your message here..." style="width:400px; height:300px;"></textarea>
         <br>
         <br>
         <input id="submit_button" type="submit" value="Submit">
@@ -45,20 +46,33 @@
     </section>
     <br>
     <br>
-    <section id="subscribe">
-      <p>Subscribe to our newsletter to receive the latest updates:<p>
-      <form id="subscribe" action="mailto:dsdakhil@aol.com" method="post" enctype="text/plain">
+    <section class="subscribe">
+      <h4>Subscribe to our newsletter</h4>
+      <br>
+      <form id="subscribe_form" action="mailto:dsdakhil@aol.com" method="post" enctype="text/plain">
+        <p>Subcribe to receive the latest updates!</p>
         <p>Email address:</p>
         <input id="email" type="email" name="email" placeholder="Your email address...">
         <br>
         <br>
-        <p> What would you like to hear about?</p>
-        <input id="check_box" type="checkbox" name="option1" value="Art">Art
-        <br>
-        <input id="check_box" type="checkbox" name="option2" value="Music">Music
-        <br>
-        <input id="check_box" type="checkbox" name="option3" value="Theatre">Theatre
-        <br>
+        <p>What would you like to hear about?</p>
+        <div class="check_box">
+          <div class="check_box1">
+            <input id="check_box1" type="checkbox" name="option1" value="Art">
+            <label id="check_box1_label" for="option1">Art</label>
+            <br>
+          </div>
+          <div class="check_box2">
+            <input id="check_box2" type="checkbox" name="option2" value="Music">
+            <label id="check_box2_label" for="option2">Music</label>
+            <br>
+          </div>
+          <div class="check_box3">
+            <input id="check_box3" type="checkbox" name="option3" value="Theatre">
+            <label id="check_box3_label" for="option3">Theatre</label>
+            <br>
+          </div>
+        </div>
         <br>
         <input id="subscribe_button" type="submit" value="Subscribe">
       </form>
