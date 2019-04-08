@@ -130,7 +130,7 @@ h3 {
 }
 
 .header {
-  background-image: url("/Users/sararidha/Documents/Code First Girls/coding_course/group_project/images/london.png");
+  background-image: url("../images/london.png");
   background-position: bottom;
   background-repeat: repeat-x;
   padding: 80px;
